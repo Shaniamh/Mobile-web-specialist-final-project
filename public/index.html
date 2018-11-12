@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<title>Shania's web</title>
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="manifest" href="manifest/manifest.json">
+	<script>
+		// Check that service workers are registered
+		if ('serviceWorker' in navigator) {
+		  // Use the window load event to keep the page load performant
+		  window.addEventListener('load', () => {
+			navigator.serviceWorker.register('sw.js');
+		  });
+		}
+		</script>
+</head>
+<body>
+	<div class="container">
+		<div class="menu">
+			<img class="logo" src="./images/shan.png">
+		</div>
+		<div class="header">
+			<h3>Shania's corner</h3>
+		</div>
+		<div class="sidebar">
+			<img class="foto" src="./images/AV.png">
+		</div>
+		<div class="konten">
+		<div class="subkonten">
+			<button class="button1" onclick="window.location.href='add2numbers.html'">Menghitung 2 angka</button>
+		</div>
+		<div class="subkonten">
+		<button class="button1" onclick="window.location.href='peta.html'">Peta Kuliner</button>
+		</div>
+		<div class="subkonten">Profil Saya</div>
+		</div>
+		
+		<div class="footer">
+			<p class="name">Shania Maulaning Hartanti | shania.tanti6@gmail.com</p>
+		</div>
+	</div>
+	<button class="button1" onclick="window.location.href='page1.html'">NEXT</button>
+</body>
+</html>
