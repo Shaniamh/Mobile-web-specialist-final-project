@@ -1,5 +1,5 @@
 # Read me
-This is Final project that has been created due to my participation within this program Google Developers Kejar scholarship Mobile Web Application. If you find these things interesting, feel free to download it.
+If you find these things interesting, feel free to download it.
 
 # Description
 
